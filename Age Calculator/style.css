@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background-color: #000;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 520px;
+    height: auto;
+    min-height: 100px;
+    margin: 100px auto;
+    background-color: #000;
+    border-radius: 5px;
+    border: 4px solid rgb(206, 1, 86);
+    /* box-shadow: inset 0 0 0.5em 0 rgb(206, 1, 86), 0 0 0.5em rgb(206, 1, 86); */
+    
+    box-shadow: 0 0 25px rgb(185, 1, 78),
+        0 0 10px rgb(185, 1, 78),
+        0 0 20px rgb(185, 1, 78);
+}
+.heading h4{
+    font-size: 26px;
+    text-align: center;
+    font-weight: normal;
+    margin-top: 5px;
+    box-shadow: 0px 2px #8b8b8b;
+    font-size: 35px;
+    color: rgb(252, 25, 120);
+}
+.block{
+    width: 135px;
+    padding: 50px 10px;
+    margin-left: 20px;
+    display: inline-block;
+}
+.text{
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: normal;
+    line-height: 0.5;
+    letter-spacing: 0.5px;
+    word-spacing: 2.7px;
+    color: rgb(206, 1, 86);
+}
+input[type=text]{
+    width: 140px;
+    margin: auto;
+    outline: none;
+    min-height: 50px;
+    border: 2px solid #333;
+    padding: 12px;
+    background-color: #111;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 17px;
+}
+input[type=button]{
+    width: 120px;
+    margin-left: 40%;
+    margin-top: 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    background-color: rgb(206, 1, 86);
+    color: #111;
+    border: 1px solid rgb(206, 1, 86);
+    padding: 10px 25px;
+    border-radius: 0.25em;
+    transition-duration: 0.3s;
+    box-shadow: inset 0 0 0.5em 0 rgb(206, 1, 86), 0 0 0.5em rgb(206, 1, 86);
+}
+input[type=button]:hover{
+    color: #fff;
+    background-color: rgb(121, 3, 52);
+
+    box-shadow: inset 0 0 0.5em 0 rgb(185, 1, 78), 0 0 0.5em rgb(187, 1, 79);
+}
+#age{
+    padding: 20px;
+    text-align: center;
+    overflow: hidden;
+    font-size: 23px;
+    font-weight: normal;
+    line-height: 1.5;
+    word-spacing: 2.7px;
+    color: #fff;
+}
